@@ -27,27 +27,24 @@ h1, p {
     justify-content: center;
     align-items: center;
 }
-#place {
-    width: 50px;
-    height: 50px;
-}
+
 #arrow {
-    max-height: 50px;
-    padding-bottom: 10px;
+    max-height: 4em;
+    padding-bottom: 1em;
     width: auto;
     height: auto;
 }
 
 #name {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 80px;
+    font-size: 8rem;
     margin: 0;
+    margin-left: 1em; 
+    margin-right: 1em; 
 }
 
 .logos {
-    width: 150px;
-    height: 150px;
-    margin: 100px;
+    width: 6em;
 }
 
 a {
@@ -59,19 +56,17 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 100px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding: 20em;
 }
 
  #summary {
-    width: 500px;
-    font-size: 20px;
+     width: 30%;
+    font-size: 3rem;
  }
 
 #zach {
     display: block;
-    max-height: 400px;
+    max-width: 20%;
     width: auto;
     height: auto;
 }

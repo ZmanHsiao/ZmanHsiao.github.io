@@ -20,12 +20,14 @@ h1, p {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #intro {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #arrow {
@@ -37,7 +39,7 @@ h1, p {
 
 #name {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 8rem;
+    font-size: 6rem;
     margin: 0;
     margin-left: 1em; 
     margin-right: 1em; 
@@ -55,18 +57,19 @@ a {
     background-color:white;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 20em;
+    padding: 10em;
 }
 
  #summary {
-     width: 30%;
-    font-size: 3rem;
+    width: 40%;
+    font-size: 2rem;
  }
 
 #zach {
     display: block;
-    max-width: 20%;
+    max-width: 35%;
     width: auto;
     height: auto;
 }
